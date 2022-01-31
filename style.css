@@ -127,7 +127,7 @@ section .title::after{
 
 /* menu btn styling */
 .menu-btn{
-    color: #fff;
+    color: rgb(17, 17, 17);
     font-size: 23px;
     cursor: pointer;
     display: none;
