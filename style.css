@@ -109,7 +109,7 @@ section .title::after{
 .navbar .menu li{
     list-style: none;
     display: inline-block;
-    background-color: chocolate;
+    
 }
 .navbar .menu li a{
     display: block;
