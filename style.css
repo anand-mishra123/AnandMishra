@@ -100,7 +100,7 @@ section .title::after{
     font-weight: 600;
 }
 .navbar .logo a span{
-    color: rgb(136, 7, 93);
+    color: rgb(92, 30, 71);
     transition: all 0.3s ease;
 }
 .navbar.sticky .logo a span{
