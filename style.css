@@ -78,6 +78,7 @@ section .title::after{
 
 /* navbar styling */
 .navbar{
+    
     position: fixed;
     width: 100%;
     z-index: 999;
@@ -100,7 +101,7 @@ section .title::after{
     font-weight: 600;
 }
 .navbar .logo a span{
-    color: rgb(92, 30, 71);
+    color: rgb(170, 37, 59);
     transition: all 0.3s ease;
 }
 .navbar.sticky .logo a span{
@@ -163,8 +164,8 @@ section .title::after{
 
 /* home section styling */
 .home{
+    background-color: rgb(165, 213, 245);
     display: flex;
-    background: url("images/banner.jpg") no-repeat center;
     height: 100vh;
     color: #fff;
     min-height: 500px;
@@ -181,21 +182,21 @@ section .title::after{
 }
 .home .home-content .text-1{
     font-size: 27px;
-    color: aqua;
+    color: rgb(32, 41, 40);
 }
 .home .home-content .text-2{
     font-size: 75px;
     font-weight: 600;
     margin-left: -3px;
-    color: blueviolet;
+    color: rgb(80, 39, 109);
 }
 .home .home-content .text-3{
     font-size: 40px;
     margin: 5px 0;
-    color: aqua;
+    color: rgb(95, 21, 21);
 }
 .home .home-content .text-3 span{
-    color: crimson;
+    color: rgb(187, 91, 110);
     font-weight: 500;
 }
 .home .home-content a{
@@ -216,7 +217,11 @@ section .title::after{
 }
  
 /* about section styling */
+.about{
+    background-color: rgb(165, 213, 245);
+}
 .about .title::after{
+    background-color: rgb(165, 213, 245);
     content: "who i am";
 }
 .about .about-content .left{
@@ -270,7 +275,7 @@ section .title::after{
 }
 .services .title::after,
 .teams .title::after{
-    background: #111;
+    background: rgb(14, 13, 13);
     content: "what i provide";
 }
 .services .serv-content .card{
@@ -306,8 +311,11 @@ section .title::after{
 }
 
 /* skills section styling */
-
+.skills{
+    background-color: rgb(165, 213, 245);
+}
 .skills .title::after{
+    background-color: rgb(165, 213, 245);
     content: "what i know";
 }
 .skills .skills-content .column{
@@ -444,7 +452,11 @@ section .title::after{
 }
 
 /* contact section styling */
+.contact{
+    background-color: rgb(165, 213, 245);
+}
 .contact .title::after{
+    background-color: rgb(165, 213, 245);
     content: "get in touch";
 }
 .contact .contact-content .column{
