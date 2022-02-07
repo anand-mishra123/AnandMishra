@@ -78,7 +78,6 @@ section .title::after{
 
 /* navbar styling */
 .navbar{
-    
     position: fixed;
     width: 100%;
     z-index: 999;
@@ -110,7 +109,6 @@ section .title::after{
 .navbar .menu li{
     list-style: none;
     display: inline-block;
-    
 }
 .navbar .menu li a{
     display: block;
