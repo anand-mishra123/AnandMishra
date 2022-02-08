@@ -162,7 +162,7 @@ section .title::after{
 
 /* home section styling */
 .home{
-    background-color: rgb(165, 213, 245);
+    background-color: rgb(185, 221, 245);
     display: flex;
     height: 100vh;
     color: #fff;
