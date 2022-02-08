@@ -78,7 +78,7 @@ section .title::after{
 
 /* navbar styling */
 .navbar{
-    position: fixed;
+    position: absolute;
     width: 100%;
     z-index: 999;
     padding: 30px 0;
@@ -263,9 +263,9 @@ section .title::after{
 }
 
 /* services section styling */
-.services, .teams{
+/* .services, .teams{
     color:#fff;
-    background: #111;
+    background-color: rgb(165, 213, 245);
 }
 .services .title::before,
 .teams .title::before{
@@ -273,7 +273,7 @@ section .title::after{
 }
 .services .title::after,
 .teams .title::after{
-    background: rgb(14, 13, 13);
+    background-color: rgb(165, 213, 245);
     content: "what i provide";
 }
 .services .serv-content .card{
@@ -306,7 +306,7 @@ section .title::after{
     font-size: 25px;
     font-weight: 500;
     margin: 10px 0 7px 0;
-}
+} */
 
 /* skills section styling */
 .skills{
@@ -387,7 +387,7 @@ section .title::after{
 }
 
 /* teams section styling */
-.teams .title::after{
+/* .teams .title::after{
     content: "who with me";
 }
 .teams .carousel .card{
@@ -447,7 +447,7 @@ section .title::after{
 .owl-dot.active,
 .owl-dot:hover{
     background: crimson!important;
-}
+} */
 
 /* contact section styling */
 .contact{
@@ -550,9 +550,9 @@ section .title::after{
 }
 /* footer section styling */
 footer{
-    background: #111;
+    background: rgb(22, 22, 22);
     padding: 15px 23px;
-    color: #fff;
+    color: rgb(167, 223, 64);
     text-align: center;
 }
 footer span a{
