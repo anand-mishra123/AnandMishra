@@ -5,6 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Personal Portfolio Website</title>
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"/>
     <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
@@ -19,7 +20,7 @@
         <i class="fas fa-angle-up"></i>
     </div>
     <nav class="navbar">
-        <div class="max-width">
+        <div class="max-width" data-aos="zoom-in-up">
             <div class="logo"><a href="#"><span>My Portfolio.</span></a></div>
             <ul class="menu">
                 <li><a href="#home" class="menu-btn">Home</a></li>
@@ -37,7 +38,7 @@
     
     <!-- home section start -->
     <section class="home" id="home">
-        <div class="max-width">
+        <div class="max-width" data-aos="zoom-in-down">
             <div class="home-content">
                 <div class="text-1">Hello, My Name is</div>
                 <div class="text-2">Anand Mishra</div>
@@ -49,7 +50,7 @@
 
     <!-- about section start -->
     <section class="about" id="about">
-        <div class="max-width">
+        <div class="max-width" data-aos="flip-left">
             <h2 class="title">About me</h2>
             <div class="about-content">
                 <div class="column left">
@@ -97,7 +98,7 @@
 
     <!-- skills section start -->
     <section class="skills" id="skills">
-        <div class="max-width">
+        <div class="max-width" data-aos="flip-right">
             <h2 class="title">My skills</h2>
             <div class="skills-content">
                 <div class="column left">
@@ -192,7 +193,7 @@
 
     <!-- contact section start -->
     <section class="contact" id="contact">
-        <div class="max-width">
+        <div class="max-width" data-aos="flip-left">
             <h2 class="title">Contact me</h2>
             <div class="contact-content">
                 <div class="column left">
@@ -254,5 +255,12 @@
     </footer>
 
     <script src="script.js"></script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+  <script>
+    AOS.init({
+        offset: 300,
+        duration: 1000,
+    });
+  </script>
 </body>
 </html>
