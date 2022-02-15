@@ -162,7 +162,7 @@ section .title::after{
 
 /* home section styling */
 .home{
-    background-color: rgb(185, 221, 245);
+    background-color: rgb(209, 234, 250);
     display: flex;
     height: 100vh;
     color: #fff;
@@ -209,6 +209,7 @@ section .title::after{
     border: 2px solid crimson;
     transition: all 0.3s ease;
 }
+
 .home .home-content a:hover{
     color: crimson;
     background: none;
@@ -216,10 +217,10 @@ section .title::after{
  
 /* about section styling */
 .about{
-    background-color: rgb(165, 213, 245);
+    background-color: rgb(209, 234, 250);
 }
 .about .title::after{
-    background-color: rgb(165, 213, 245);
+    background-color: rgb(209, 234, 250);
     content: "who i am";
 }
 .about .about-content .left{
@@ -310,10 +311,10 @@ section .title::after{
 
 /* skills section styling */
 .skills{
-    background-color: rgb(165, 213, 245);
+    background-color: rgb(209, 234, 250);
 }
 .skills .title::after{
-    background-color: rgb(165, 213, 245);
+    background-color: rgb(209, 234, 250);
     content: "what i know";
 }
 .skills .skills-content .column{
@@ -451,10 +452,10 @@ section .title::after{
 
 /* contact section styling */
 .contact{
-    background-color: rgb(165, 213, 245);
+    background-color: rgb(209, 234, 250);
 }
 .contact .title::after{
-    background-color: rgb(165, 213, 245);
+    background-color: rgb(209, 234, 250);
     content: "get in touch";
 }
 .contact .contact-content .column{
