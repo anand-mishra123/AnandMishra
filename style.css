@@ -10,6 +10,9 @@
 html{
     scroll-behavior: smooth;
 }
+body{
+    overflow-x: hidden;
+}
 /* custom scroll bar */
 ::-webkit-scrollbar {
     width: 10px;
@@ -162,14 +165,19 @@ section .title::after{
 
 /* home section styling */
 .home{
-    background-color: rgb(209, 234, 250);
+    background-color: white;
     display: flex;
     height: 100vh;
-    color: #fff;
+    color: Black (#000000);
     min-height: 500px;
     background-size: cover;
     background-attachment: fixed;
     font-family: 'Ubuntu', sans-serif;
+}
+.contain{
+    height: 100px;
+    width: 40px;
+    margin: -400px 420px;
 }
 .home .max-width{
   width: 100%;
@@ -186,21 +194,21 @@ section .title::after{
     font-size: 75px;
     font-weight: 600;
     margin-left: -3px;
-    color: rgb(80, 39, 109);
+    color: rgb(73, 172, 205);
 }
 .home .home-content .text-3{
     font-size: 40px;
     margin: 5px 0;
-    color: rgb(95, 21, 21);
+    color: Black (#000000);
 }
 .home .home-content .text-3 span{
-    color: rgb(187, 91, 110);
+    color: Black (#000000);
     font-weight: 500;
 }
 .home .home-content a{
     display: inline-block;
     background: crimson;
-    color: #fff;
+    color: Black (#000000);
     font-size: 25px;
     padding: 12px 36px;
     margin-top: 20px;
@@ -217,7 +225,7 @@ section .title::after{
  
 /* about section styling */
 .about{
-    background-color: rgb(209, 234, 250);
+    background-color: white;
 }
 .about .title::after{
     background-color: rgb(209, 234, 250);
@@ -262,7 +270,12 @@ section .title::after{
     color: crimson;
     background: none;
 }
+.contain{
 
+    height: 1px;
+    width: 2px;
+    padding: 1px 300px;
+}
 /* services section styling */
 /* .services, .teams{
     color:#fff;
@@ -311,10 +324,10 @@ section .title::after{
 
 /* skills section styling */
 .skills{
-    background-color: rgb(209, 234, 250);
+    background-color: white;
 }
 .skills .title::after{
-    background-color: rgb(209, 234, 250);
+    background-color: white;
     content: "what i know";
 }
 .skills .skills-content .column{
@@ -452,10 +465,10 @@ section .title::after{
 
 /* contact section styling */
 .contact{
-    background-color: rgb(209, 234, 250);
+    background-color: white;
 }
 .contact .title::after{
-    background-color: rgb(209, 234, 250);
+    background-color: white;
     content: "get in touch";
 }
 .contact .contact-content .column{
