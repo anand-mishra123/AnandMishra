@@ -195,6 +195,7 @@ section .title::after{
     font-weight: 600;
     margin-left: -3px;
     color: rgb(73, 172, 205);
+    font-family:'Times New Roman', Times, serif
 }
 .home .home-content .text-3{
     font-size: 40px;
