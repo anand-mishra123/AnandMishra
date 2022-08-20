@@ -208,14 +208,15 @@ section .title::after{
 .home .home-content a{
     display: inline-block;
     background: crimson;
-    color: Black (#000000);
+    color: white;
     font-size: 25px;
     padding: 12px 36px;
     margin-top: 20px;
     font-weight: 400;
     border-radius: 6px;
-    border: 2px solid crimson;
+    border: 2px solid rgb(30, 27, 27);
     transition: all 0.3s ease;
+    cursor: pointer;
 }
 
 .home .home-content a:hover{
@@ -257,14 +258,15 @@ section .title::after{
 .about .about-content .right a{
     display: inline-block;
     background: crimson;
-    color: #fff;
-    font-size: 20px;
-    font-weight: 500;
-    padding: 10px 30px;
+    color: white;
+    font-size: 25px;
+    padding: 12px 36px;
     margin-top: 20px;
+    font-weight: 400;
     border-radius: 6px;
-    border: 2px solid crimson;
+    border: 2px solid rgb(30, 27, 27);
     transition: all 0.3s ease;
+    cursor: pointer;
 }
 .about .about-content .right a:hover{
     color: crimson;
@@ -344,14 +346,15 @@ section .title::after{
 .skills .skills-content .left a{
     display: inline-block;
     background: crimson;
-    color: #fff;
-    font-size: 18px;
-    font-weight: 500;
-    padding: 8px 16px;
+    color: white;
+    font-size: 25px;
+    padding: 12px 36px;
     margin-top: 20px;
+    font-weight: 400;
     border-radius: 6px;
-    border: 2px solid crimson;
+    border: 2px solid rgb(30, 27, 27);
     transition: all 0.3s ease;
+    cursor: pointer;
 }
 .skills .skills-content .left a:hover{
     color: crimson;
@@ -544,19 +547,17 @@ section .title::after{
   align-items: center;
 }
 .right form .button-area button{
-  color: #fff;
-  display: block;
-  width: 160px!important;
-  height: 45px;
-  outline: none;
-  font-size: 18px;
-  font-weight: 500;
-  border-radius: 6px;
-  cursor: pointer;
-  flex-wrap: nowrap;
-  background: crimson;
-  border: 2px solid crimson;
-  transition: all 0.3s ease;
+    display: inline-block;
+    background: crimson;
+    color: white;
+    font-size: 25px;
+    padding: 12px 36px;
+    margin-top: 20px;
+    font-weight: 400;
+    border-radius: 6px;
+    border: 2px solid rgb(30, 27, 27);
+    transition: all 0.3s ease;
+    cursor: pointer;
 }
 .right form .button-area button:hover{
   color: crimson;
