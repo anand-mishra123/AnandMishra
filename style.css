@@ -167,9 +167,9 @@ section .title::after{
 .home{
     background-color: white;
     display: flex;
-    height: 100vh;
+    height: 80vh;
     color: Black (#000000);
-    min-height: 500px;
+    min-height: 100px;
     background-size: cover;
     background-attachment: fixed;
     font-family: 'Ubuntu', sans-serif;
@@ -177,7 +177,7 @@ section .title::after{
 .contain{
     height: 100px;
     width: 40px;
-    margin: -400px 420px;
+    margin: -350px 450px;
 }
 .home .max-width{
   width: 100%;
@@ -187,10 +187,12 @@ section .title::after{
   margin-right: 0;
 }
 .home .home-content .text-1{
+    
     font-size: 27px;
     color: rgb(32, 41, 40);
 }
 .home .home-content .text-2{
+    
     font-size: 75px;
     font-weight: 600;
     margin-left: -3px;
@@ -198,6 +200,7 @@ section .title::after{
     font-family:'Times New Roman', Times, serif
 }
 .home .home-content .text-3{
+    
     font-size: 40px;
     margin: 5px 0;
     color: Black (#000000);
