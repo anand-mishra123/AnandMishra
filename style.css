@@ -177,7 +177,7 @@ section .title::after{
 .contain{
     height: 100px;
     width: 40px;
-    margin: -350px 450px;
+    margin: -350px 470px;
 }
 .home .max-width{
   width: 100%;
