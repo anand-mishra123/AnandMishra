@@ -177,7 +177,7 @@ section .title::after{
 .contain{
     height: 100px;
     width: 40px;
-    margin: -350px 450px;
+    margin: 40px;
 }
 .home .max-width{
   width: 100%;
@@ -193,15 +193,15 @@ section .title::after{
 }
 .home .home-content .text-2{
     
-    font-size: 75px;
-    font-weight: 600;
+    font-size: 70px;
+    font-weight: 540;
     margin-left: -3px;
     color: rgb(73, 172, 205);
     font-family:'Times New Roman', Times, serif
 }
 .home .home-content .text-3{
     
-    font-size: 40px;
+    font-size: 35px;
     margin: 5px 0;
     color: Black (#000000);
 }
